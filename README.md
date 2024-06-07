@@ -1,3 +1,5 @@
+Aqui está o README corrigido de acordo com a estrutura do projeto apresentada na imagem fornecida:
+
 ## Gerenciador de Podcasts
 
 ### Descrição
@@ -22,6 +24,7 @@ gerenciador-podcasts/
 │   ├── data/
 │   │   └── podcasts.json
 │   ├── models/
+│   │   ├── podcast-dto-model.ts
 │   │   └── podcast-model.ts
 │   ├── repositories/
 │   │   └── podcasts-repository.ts
@@ -37,6 +40,7 @@ gerenciador-podcasts/
 │   ├── app.ts
 │   └── server.ts
 ├── .env
+├── .env.example
 ├── .gitignore
 ├── LICENSE
 ├── package-lock.json

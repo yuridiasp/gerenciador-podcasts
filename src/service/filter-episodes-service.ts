@@ -9,7 +9,7 @@ export const serviceFilterEpisodes = async (url: string | undefined): Promise<Po
         body: []
     };
 
-    const podcastName = url?.split("?p=")[1] ?? "";
+    const podcastName = url?.split("?p=")[1];
     
     const data = await repositoryPodcast(podcastName);
 
