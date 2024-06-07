@@ -26,23 +26,28 @@ Podcasts feitos em vídeo.
 - Listar os episódios de podcasts em sessões de categorias
 
 ##### Como vou implementar
-Vou retornar em uma API REST o nome do podcast, titulo do episódio, imagem de capa e o link do episódio no Youtube
+
+GET: Retornar lista de episódios
 
 ````js
-{
-    podcastName: "Flow",
-    episode: "FAUSTO CARVALHO [JORGINHO] - Flow #370",
-    videoId: "i9Y8uIE7HJI",
-    cover: "https://i.ytimg.com/vi/i9Y8uIE7HJI/hqdefault.jpg",
-    link: "https://www.youtube.com/watch?v=i9Y8uIE7HJI",
-    category: ["humor"]
-},
-{
-    podcastName: "Flow",
-    episode: "JORLAN + RAFAEL BRANDÃO - Flow #373",
-    videoId: "1h4EJuSuWyU",
-    cover: "https://i.ytimg.com/vi/1h4EJuSuWyU/maxresdefault.jpg",
-    link: "https://www.youtube.com/watch?v=1h4EJuSuWyU",
-    category: ["saúde", "bodybuilding", "musculação"]
-}
+[
+    {
+        podcastName: "Flow",
+        episode: "FAUSTO CARVALHO [JORGINHO] - Flow #370",
+        videoId: "i9Y8uIE7HJI",
+        cover: "https://i.ytimg.com/vi/i9Y8uIE7HJI/hqdefault.jpg",
+        link: "https://www.youtube.com/watch?v=i9Y8uIE7HJI",
+        category: ["humor"]
+    },
+    {
+        podcastName: "Flow",
+        episode: "JORLAN + RAFAEL BRANDÃO - Flow #373",
+        videoId: "1h4EJuSuWyU",
+        cover: "https://i.ytimg.com/vi/1h4EJuSuWyU/maxresdefault.jpg",
+        link: "https://www.youtube.com/watch?v=1h4EJuSuWyU",
+        category: ["saúde", "bodybuilding", "musculação"]
+    }
+]
 ````
+
+GET: Retorna lista de episódios baseado em um parâmetro enviado pelo clietne do nome do podcast
