@@ -3,7 +3,9 @@ Aqui está o README corrigido de acordo com a estrutura do projeto apresentada n
 ## Gerenciador de Podcasts
 
 ### Descrição
-O Gerenciador de Podcasts é uma aplicação ao estilo Netflix que permite centralizar diferentes episódios de podcasts separados por categoria. O foco são podcasts feitos em vídeo.
+O Gerenciador de Podcasts é uma aplicação inspirada no estilo Netflix que permite centralizar diferentes episódios de podcasts, organizados por categoria. Com foco em podcasts em vídeo, a plataforma oferece uma experiência de usuário fluida e intuitiva.
+
+O projeto foi desenvolvido utilizando Node.js, aproveitando sua API HTTP nativa para construir uma infraestrutura de backend robusta e eficiente. A aplicação é escrita em TypeScript, garantindo tipagem estática e maior segurança no desenvolvimento, além de facilitar a manutenção e escalabilidade do código.
 
 ### Domínio
 Podcasts feitos em vídeo.
